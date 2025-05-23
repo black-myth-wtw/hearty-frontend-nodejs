@@ -1,0 +1,16 @@
+{
+  "name": "hearty-frontend-nodejs",
+  "version": "0.0.1",
+  "description": "hearty frontend nodejs",
+  "main": "index.js",
+  "scripts": {
+    "basic": "nodemon ./basic/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-black-myth-wtw:black-myth-wtw/hearty-frontend-nodejs.git"
+  },
+  "keywords": ["frontend", "nodejs", "passion"],
+  "author": "black_myth_wukong",
+  "license": "MIT"
+}
