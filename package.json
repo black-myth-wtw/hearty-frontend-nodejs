@@ -11,7 +11,14 @@
     "type": "git",
     "url": "git@github-black-myth-wtw:black-myth-wtw/hearty-frontend-nodejs.git"
   },
-  "keywords": ["frontend", "nodejs", "passion"],
+  "keywords": [
+    "frontend",
+    "nodejs",
+    "passion"
+  ],
   "author": "black_myth_wukong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.2.3"
+  }
 }

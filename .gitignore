@@ -1,6 +1,10 @@
 # IDE
 .idea
 
+# lock files
+package-lock.json
+pnpm-lock.yaml
+
 # Logs
 logs
 *.log
