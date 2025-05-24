@@ -6,3 +6,5 @@ require('./commonjs');
 require('./built-ins');
 // block 阻塞性/非阻塞性 IO
 require('./block');
+// loop 事件循环机制
+require('./loop');
