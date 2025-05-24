@@ -12,3 +12,5 @@ require('./loop');
 require('./callback');
 // promise 异步状态机
 require('./promise');
+// async/await 异步函数程序同步执行
+require('./async-await');
