@@ -85,4 +85,4 @@
 //     clearTimeout(timer_end);
 // }, 4555);
 
-console.log('NodeJS《第三课: commonjs 模块化导入导出-commonjs exports 模块化导入导出》部分课程已完美的回溯完成!如需要检测执行结果,将以上代码注释解开即可!');
+console.log('NodeJS《第三课: commonjs 模块化导入/导出-commonjs exports 模块化导入/导出》部分课程已完美的回溯完成!如需要检测执行结果,将以上代码注释解开即可!');
