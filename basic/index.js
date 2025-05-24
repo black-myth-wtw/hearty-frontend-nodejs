@@ -10,3 +10,5 @@ require('./block');
 require('./loop');
 // callback 回调函数
 require('./callback');
+// promise 异步状态机
+require('./promise');
