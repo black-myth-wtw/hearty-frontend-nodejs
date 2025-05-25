@@ -14,3 +14,5 @@ require('./callback');
 require('./promise');
 // async/await 异步函数程序同步执行
 require('./async-await');
+// buffer 二进制数据传输
+require('./buffer');

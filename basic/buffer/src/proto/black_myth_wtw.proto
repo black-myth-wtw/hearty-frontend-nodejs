@@ -1,0 +1,11 @@
+message Black_Myth_WTW {
+  required string name = 1;
+  required uint32 age = 2;
+  required bool gender = 3;
+  required string birthday = 4;
+  required Hobby hobby = 5;
+}
+
+message Hobby {
+  repeated string sports = 1;
+}
