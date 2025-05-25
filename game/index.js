@@ -6,3 +6,5 @@ require('./commonjs');
 require('./http');
 // express 拥有强大的路由分发功能的模拟石头、剪刀与布游戏大赛
 require('./express');
+// koa 采用 async/await 解决了处理异步事件问题的模拟石头、剪刀与布游戏大赛
+require('./koa');

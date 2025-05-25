@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>第一届模拟石头、剪刀与布游戏大赛</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #game-show-result {
+            width: 800px;
+            height: 600px;
+            padding: 8px 6px;
+            background-color: lightgrey;
+            font-size: 15px;
+            font-weight: bolder;
+            border-radius: 4px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        #game-selection-area {
+            margin-top: 8px;
+        }
+
+        .game-selection-choose {
+            width: 96px;
+            height: 32px;
+            margin: 0 8px;
+            background-color: darkcyan;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bolder;
+            border-radius: 4px;
+            box-sizing: border-box;
+            border: 1px solid darkcyan;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<section id="game-show-result">
+</section>
+<section id="game-selection-area" class="game-selection-area">
+    <button id="rock" class="game-selection-choose">
+        石头
+    </button>
+    <button id="scissor" class="game-selection-choose">
+        剪刀
+    </button>
+    <button id="paper" class="game-selection-choose">
+        布
+    </button>
+</section>
+<script type="application/javascript">
+    const game_show_result = document.getElementById('game-show-result');
+    const game_selection_chooses = document.getElementsByClassName('game-selection-choose');
+
+    [...game_selection_chooses].forEach(game_selection => {
+        game_selection.addEventListener('click', e => {
+            const {target} = e;
+            const {id} = target;
+            fetch(`/game?action=${id}`).then(response => response.text()).then(text => game_show_result.innerHTML += `${text}<br/>`).catch(e => console.error(e.message));
+        });
+    });
+</script>
+</body>
+</html>

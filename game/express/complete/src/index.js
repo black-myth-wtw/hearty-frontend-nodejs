@@ -77,7 +77,7 @@
 // });
 //
 // app.listen(PORT, () => {
-//     console.log(`The express simple client page is running at http://localhost:${PORT}!`);
+//     console.log(`The express complete client page is running at http://localhost:${PORT}!`);
 // });
 
 console.log('NodeJS《第十三课: express 拥有强大的路由分发功能的模拟石头、剪刀与布游戏大赛-完整的 express 拥有强大的路由分发功能的模拟石头、剪刀与布游戏大赛》部分课程已完美的回溯完成!如需要检测执行结果,将以上代码注释解开即可!');
