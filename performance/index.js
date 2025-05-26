@@ -10,3 +10,5 @@ require('./memory');
 require('./process');
 // performance http xhr 网络请求性能优化的 guard 进程守护与管理
 require('./guard');
+// performance http xhr 网络请求性能优化的 structure 架构优化
+require('./structure');
