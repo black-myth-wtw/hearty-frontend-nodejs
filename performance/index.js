@@ -4,5 +4,7 @@ require('./tools');
 require('./report');
 // performance http xhr 网络请求性能优化的 javascript 代码优化
 require('./javascript');
-// performance http xhr 网络请求性能优化的内存分配策略:模拟内存堆栈溢出
+// performance http xhr 网络请求性能优化的 memory 内存分配策略:模拟内存堆栈溢出
 require('./memory');
+// performance http xhr 网络请求性能优化的 process 多进程优化
+require('./process');
