@@ -16,3 +16,5 @@ require('./promise');
 require('./async-await');
 // buffer 二进制数据传输
 require('./buffer');
+// template 模板引擎
+require('./template');
