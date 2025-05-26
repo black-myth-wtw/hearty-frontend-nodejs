@@ -6,7 +6,8 @@
   "scripts": {
     "basic": "nodemon ./basic/index.js",
     "game": "nodemon ./game/index.js",
-    "network": "nodemon ./network/index.js"
+    "network": "nodemon ./network/index.js",
+    "project": "nodemon ./project/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "glob": "^7.2.3",
     "koa": "^3.0.0",
     "koa-mount": "^4.2.0",
+    "koa-static": "^5.0.0",
     "protocol-buffers": "^5.0.0"
   }
 }
