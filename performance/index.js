@@ -8,3 +8,5 @@ require('./javascript');
 require('./memory');
 // performance http xhr 网络请求性能优化的 process 多进程优化
 require('./process');
+// performance http xhr 网络请求性能优化的 guard 进程守护与管理
+require('./guard');
