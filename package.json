@@ -21,6 +21,7 @@
   "author": "black_myth_wukong",
   "license": "MIT",
   "dependencies": {
+    "easy_sock": "^0.4.1",
     "express": "^5.1.0",
     "glob": "^7.2.3",
     "koa": "^3.0.0",

@@ -30,4 +30,4 @@
 //     console.log(`The download client page is running at http://localhost:${PORT}!`);
 // });
 
-console.log('NodeJS《第十七课: 极客时间 download 下载页面》部分课程已完美的回溯完成!如需要检测执行结果,将以上代码注释解开即可!');
+console.log('NodeJS《第十七课: 极客时间 download 课程下载页面》部分课程已完美的回溯完成!如需要检测执行结果,将以上代码注释解开即可!');
