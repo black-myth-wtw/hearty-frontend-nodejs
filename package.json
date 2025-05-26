@@ -7,7 +7,9 @@
     "basic": "nodemon ./basic/index.js",
     "game": "nodemon ./game/index.js",
     "network": "nodemon ./network/index.js",
-    "project": "nodemon ./project/index.js"
+    "project": "nodemon ./project/index.js",
+    "project-list-package": "sh ./project/list/tmp/list.sh",
+    "project-list-server": "node ./project/list/backend/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "author": "black_myth_wukong",
   "license": "MIT",
   "dependencies": {
+    "core-js": "^3.42.0",
     "easy_sock": "^0.4.1",
     "express": "^5.1.0",
     "glob": "^7.2.3",
@@ -29,6 +32,17 @@
     "koa-graphql": "^0.12.0",
     "koa-mount": "^4.2.0",
     "koa-static": "^5.0.0",
-    "protocol-buffers": "^5.0.0"
+    "protocol-buffers": "^5.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
