@@ -9,7 +9,8 @@
     "network": "nodemon ./network/index.js",
     "project": "nodemon ./project/index.js",
     "project-list-package": "sh ./project/list/tmp/list.sh",
-    "project-list-server": "node ./project/list/backend/server/index.js"
+    "project-list-server": "node ./project/list/backend/server/index.js",
+    "performance": "nodemon ./performance/index.js"
   },
   "repository": {
     "type": "git",

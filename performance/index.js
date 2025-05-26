@@ -1,0 +1,2 @@
+// tools http xhr 网络请求性能优化的测试性能工具
+require('./tools');
