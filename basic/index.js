@@ -18,3 +18,5 @@ require('./async-await');
 require('./buffer');
 // template 模板引擎
 require('./template');
+// graphql api 接口规范化的查询方式/查询语言
+require('./graphql');
