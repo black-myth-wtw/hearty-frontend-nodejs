@@ -5,13 +5,13 @@ const mkdirp = require('mkdirp');
 const memory_fs = require('memory-fs');
 const copy = require('copy-dir');
 
-const uploader = (home_dir, workspace_name) => {
-    const SOURCE_BASE_DIR = path.resolve(__dirname, workspace_name, 'src'),
+const uploader = (source_home_dir, generate_home_dir, workspace_name) => {
+    const SOURCE_BASE_DIR = path.resolve(source_home_dir, workspace_name, 'src'),
         SOURCE_STATIC_DIR = path.resolve(SOURCE_BASE_DIR, 'source'),
         SOURCE_CONFIG_FILE_DIR = path.resolve(SOURCE_BASE_DIR, 'config/index.js'),
         SOURCE_TEMPLATE_FILE_DIR = path.resolve(SOURCE_BASE_DIR, 'template/index.html');
 
-    const GENERATE_BASE_DIR = path.resolve(home_dir, workspace_name, 'src'),
+    const GENERATE_BASE_DIR = path.resolve(generate_home_dir, workspace_name, 'src'),
         GENERATE_STATIC_DIR = path.resolve(GENERATE_BASE_DIR, 'source'),
         GENERATE_CONFIG_DIR = path.resolve(GENERATE_BASE_DIR, 'config'),
         GENERATE_TEMPLATE_DIR = path.resolve(GENERATE_BASE_DIR, 'template'),

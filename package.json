@@ -13,7 +13,8 @@
     "performance": "nodemon ./performance/index.js",
     "framework": "nodemon ./framework/index.js",
     "framework-koaless-build": "node ./framework/koaless/workspace/index.js",
-    "framework-koaless-server": "node ./framework/koaless/backend/index.js"
+    "framework-koaless-server": "node ./framework/koaless/backend/index.js",
+    "algorithm": "nodemon ./algorithm/index.js"
   },
   "repository": {
     "type": "git",
